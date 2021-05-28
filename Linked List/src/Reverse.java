@@ -45,11 +45,18 @@ public class Reverse {
 		// TODO Auto-generated method stub
 		
         LinkedList list = new LinkedList();
-        push(20);
-        push(41);
-        push(15);
-        push(36);
-        push(40);
+//        push(20);
+//        push(41);
+//        push(15);
+//        push(36);
+//        push(40);
+        head = new Node(10);
+        head.next = new Node(12);
+        head.next.next = new Node(11);
+        head.next.next.next = new Node(11);
+        head.next.next.next.next = new Node(12);
+        head.next.next.next.next.next = new Node(11);
+        head.next.next.next.next.next.next = new Node(10);
         
         System.out.println("Given linked list");
         print(head);
